@@ -15,7 +15,7 @@ PrintArray(array);
     {
         for (int j = 0; j < n; j++)
         {
-           result[i, j] = Math.Round(new Random().NextDouble()*(maxValue - minValue) + minValue,1);
+           result[i, j] = result[i, j] = Convert.ToDouble(new Random().Next(minValue*10, maxValue*10)) / 10;
         }
     }
     return result;
