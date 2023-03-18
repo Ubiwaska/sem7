@@ -1,0 +1,15 @@
+/Users/polinagalkina/Desktop/sem7/50/obj/Debug/net6.0/50.csproj.AssemblyReference.cache
+/Users/polinagalkina/Desktop/sem7/50/obj/Debug/net6.0/50.GeneratedMSBuildEditorConfig.editorconfig
+/Users/polinagalkina/Desktop/sem7/50/obj/Debug/net6.0/50.AssemblyInfoInputs.cache
+/Users/polinagalkina/Desktop/sem7/50/obj/Debug/net6.0/50.AssemblyInfo.cs
+/Users/polinagalkina/Desktop/sem7/50/obj/Debug/net6.0/50.csproj.CoreCompileInputs.cache
+/Users/polinagalkina/Desktop/sem7/50/bin/Debug/net6.0/50
+/Users/polinagalkina/Desktop/sem7/50/bin/Debug/net6.0/50.deps.json
+/Users/polinagalkina/Desktop/sem7/50/bin/Debug/net6.0/50.runtimeconfig.json
+/Users/polinagalkina/Desktop/sem7/50/bin/Debug/net6.0/50.dll
+/Users/polinagalkina/Desktop/sem7/50/bin/Debug/net6.0/50.pdb
+/Users/polinagalkina/Desktop/sem7/50/obj/Debug/net6.0/50.dll
+/Users/polinagalkina/Desktop/sem7/50/obj/Debug/net6.0/refint/50.dll
+/Users/polinagalkina/Desktop/sem7/50/obj/Debug/net6.0/50.pdb
+/Users/polinagalkina/Desktop/sem7/50/obj/Debug/net6.0/50.genruntimeconfig.cache
+/Users/polinagalkina/Desktop/sem7/50/obj/Debug/net6.0/ref/50.dll

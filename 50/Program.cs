@@ -1,4 +1,4 @@
-﻿//Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
+﻿// Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
 
 Console.Clear();
 Console.Write("Enter the number of rows: ");
@@ -21,17 +21,15 @@ int[,] GetArray(int m, int n, int minValue, int maxValue)
     return result;
 }
 
-for (int j = 0; j < array.GetLength(1); j++)
+if (rows > array.GetLength(0) || columns > array.GetLength(1))
 {
-    double avarage = 0;
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        avarage = (avarage + array[i, j]);
-    }
-    avarage = avarage / rows;
-    Console.Write(avarage + "; ");
+    Console.WriteLine("This number is not in the array");
 }
-Console.WriteLine();
+else
+{
+    Console.WriteLine($"Element {rows} row и {columns} column is {array[rows-1,columns-1]}");
+}
+
 
 
 void PrintArray(int[,] array)
