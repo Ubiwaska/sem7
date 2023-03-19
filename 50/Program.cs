@@ -8,6 +8,28 @@ int columns = int.Parse(Console.ReadLine() ?? "");
 int[,] array = GetArray(rows, columns, 0, 10);
 PrintArray(array);
 
+Console.Write("Enter the row: ");
+int row_entered = int.Parse(Console.ReadLine() ?? "");
+Console.Write("Enter the column: ");
+int column_entered = int.Parse(Console.ReadLine() ?? "");
+
+SearchForElement(array, row_entered, column_entered);
+
+
+void SearchForElement(int[,] array, int row_entered, int column_entered)
+{
+    if (row_entered > array.GetLength(0) || column_entered > array.GetLength(1))
+    {
+        Console.WriteLine($"The entered position is beyond the size of the array ({array.GetLength(0)}, {array.GetLength(1)}).");
+    }
+    else
+    {
+        Console.WriteLine($"The array element value in row {row_entered} and column {column_entered} is {array[row_entered - 1, column_entered - 1]}");
+    }
+
+}
+
+
 int[,] GetArray(int m, int n, int minValue, int maxValue)
 {
     int[,] result = new int[m, n];
@@ -20,17 +42,6 @@ int[,] GetArray(int m, int n, int minValue, int maxValue)
     }
     return result;
 }
-
-if (rows > array.GetLength(0) || columns > array.GetLength(1))
-{
-    Console.WriteLine("This number is not in the array");
-}
-else
-{
-    Console.WriteLine($"Element {rows} row и {columns} column is {array[rows-1,columns-1]}");
-}
-
-
 
 void PrintArray(int[,] array)
 {
